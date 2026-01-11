@@ -42,8 +42,7 @@ When to use Recursion:
 
 
 Patterns:
-1. Linear Recursion
-Functions makes one recursive call.
+1. Linear Recursion: Functions makes one recursive call.
 
 Template:
 void solve(int n){
@@ -52,13 +51,12 @@ void solve(int n){
 }
 
 use cases:
-factorial
-sum of digits
-printing numbers
+factorial,
+sum of digits,
+printing numbers,
 linked list traversal
 --#-----#-----#---
-2. Tail Recursion
-Recursive call is last operation
+2. Tail Recursion: Recursive call is last operation
 
 Template 
 int Fact(int n, int ans){
@@ -67,12 +65,14 @@ int Fact(int n, int ans){
 }
 
 Use Cases
-Factorial
-accumalation problems
+Factorial,
+accumalation problems,
 can be optimized into loop 
+
 --#-----#-----#---
-3. Head Recursion
-Recursion call happens before work.
+
+
+3. Head Recursion: Recursion call happens before work.
 
 Template
 void Print(int n){
@@ -82,11 +82,12 @@ void Print(int n){
 }
 
 Use Cases:
-Printing in order
+Printing in order,
 Tree Traversal
+
 --#-----#-----#---
-4. Tree Recursion (Multiple calls)
-Each call creates multiple calls.
+
+4. Tree Recursion (Multiple calls): Each call creates multiple calls.
 
 Templates:
 int fib(int n){
@@ -95,14 +96,15 @@ int fib(int n){
 }
 
 Use Cases:
-Fibonacci
-Tree Traversal
+Fibonacci,
+Tree Traversal,
 Divide And Conquer
 
 Time complexity often exponential
+
 --#-----#-----#---
-5. Divide and Conquer
-Split->Solve->Combine
+
+5. Divide and Conquer: Split->Solve->Combine
 
 Template:
 void Solve(int[] arr, int l, int r){
@@ -114,12 +116,11 @@ void Solve(int[] arr, int l, int r){
 }
 
 Use Cases:
-Merge Sort
-Quick Sort 
+Merge Sort,
+Quick Sort, 
 Binary Search 
 --#-----#-----#---
-6. BackTracking Pattern
-Choose --> Explore --> Unchoose
+6. BackTracking Pattern: Choose --> Explore --> Unchoose
 
 Template:
 void backtrack(int idx){
@@ -130,14 +131,14 @@ void backtrack(int idx){
 }
 
 Use cases:
-N-queue
-sodoku
-permutation
+N-queue,
+sodoku,
+permutation,
 subsets
+
 --#-----#-----#---
 
-7.Subset/Pick-Not Pick Pattern 
-At every step --> 2 choice (pick and not pick)
+7.Subset/Pick-Not Pick Pattern: At every step --> 2 choice (pick and not pick)
 
 Template:
 void subsets(int i , List<Integer> curr){
@@ -155,15 +156,14 @@ void subsets(int i , List<Integer> curr){
 }
 
 Use cases:
-Subsets
-Power set 
+Subsets,
+Power set ,
 combination sum
 
 --#-----#-----#---
 
 
-8. Permutation Pattern
-Swap/Mark Visited.
+8. Permutation Pattern: Swap/Mark Visited.
 
 Template:
 void permute(int i){
@@ -177,13 +177,12 @@ void permute(int i){
 }
 
 Use Cases:
-String Permutation
+String Permutation,
 Array permutation
 --#-----#-----#---
 
 
-9.DFS pattern(Graph/Tree)
-Visit--> explore neibhors
+9.DFS pattern(Graph/Tree): Visit--> explore neibhors
 
 Template:
 void dfs(Node node){
@@ -193,14 +192,12 @@ void dfs(Node node){
 }
 
 USe cases:
-Tree and Graph Traversal
+Tree and Graph Traversal,
 Connected Component 
 --#-----#-----#---
 
 
-10. Recursion + Memoization(DP)
-
-Store result to avoid recomputation
+10. Recursion + Memoization(DP): Store result to avoid recomputation
 
 Template:
 int fib(int i, int[] dp){
@@ -210,8 +207,8 @@ int fib(int i, int[] dp){
 }
 
 Use cases:
-Fibonacci
-knapsack
+Fibonacci,
+knapsack,
 DP problems
 
 --#-----#-----#---
