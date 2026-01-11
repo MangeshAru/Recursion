@@ -56,7 +56,7 @@ factorial
 sum of digits
 printing numbers
 linked list traversal
----------------------------------------------------------------------------------
+--#-----#-----#---
 2. Tail Recursion
 Recursive call is last operation
 
@@ -70,7 +70,7 @@ Use Cases
 Factorial
 accumalation problems
 can be optimized into loop 
--------------------------------------------------------------------------
+--#-----#-----#---
 3. Head Recursion
 Recursion call happens before work.
 
@@ -84,7 +84,7 @@ void Print(int n){
 Use Cases:
 Printing in order
 Tree Traversal
-----------------------------------------------------------------------------
+--#-----#-----#---
 4. Tree Recursion (Multiple calls)
 Each call creates multiple calls.
 
@@ -100,7 +100,7 @@ Tree Traversal
 Divide And Conquer
 
 Time complexity often exponential
-----------------------------------------------------------------------------------------
+--#-----#-----#---
 5. Divide and Conquer
 Split->Solve->Combine
 
@@ -117,7 +117,7 @@ Use Cases:
 Merge Sort
 Quick Sort 
 Binary Search 
--------------------------------------------------------------------------------------------
+--#-----#-----#---
 6. BackTracking Pattern
 Choose --> Explore --> Unchoose
 
@@ -134,7 +134,8 @@ N-queue
 sodoku
 permutation
 subsets
----------------------------------------------------------------------
+--#-----#-----#---
+
 7.Subset/Pick-Not Pick Pattern 
 At every step --> 2 choice (pick and not pick)
 
@@ -158,7 +159,9 @@ Subsets
 Power set 
 combination sum
 
-------------------------------------------------------
+--#-----#-----#---
+
+
 8. Permutation Pattern
 Swap/Mark Visited.
 
@@ -176,7 +179,9 @@ void permute(int i){
 Use Cases:
 String Permutation
 Array permutation
------------------------------------------------------
+--#-----#-----#---
+
+
 9.DFS pattern(Graph/Tree)
 Visit--> explore neibhors
 
@@ -190,7 +195,8 @@ void dfs(Node node){
 USe cases:
 Tree and Graph Traversal
 Connected Component 
-----------------------------------------------------------------------
+--#-----#-----#---
+
 
 10. Recursion + Memoization(DP)
 
