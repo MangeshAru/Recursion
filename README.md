@@ -36,9 +36,9 @@ Risk of stackOverflowError
 
 
 When to use Recursion:
-problem can be broken into multiple identical subproblems
-Depth is manageble
-Trees/Graph involved
+1.problem can be broken into multiple identical subproblems
+2.Depth is manageble
+3.Trees/Graph involved
 
 
 Patterns:
@@ -214,6 +214,14 @@ Fibonacci
 knapsack
 DP problems
 
+--#-----#-----#---
+
+How to Practice :
+ 1.  Write Base Case
+ 2.  Write Recursive step
+ 3.  Dry-run with small input
+ 4.  Draw recursion tree
+ 5.  Analyze time ans space
 
   
 
