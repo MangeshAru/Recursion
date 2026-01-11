@@ -55,7 +55,9 @@ factorial,
 sum of digits,
 printing numbers,
 linked list traversal
+
 --#-----#-----#---
+
 2. Tail Recursion: Recursive call is last operation
 
 Template 
@@ -119,7 +121,9 @@ Use Cases:
 Merge Sort,
 Quick Sort, 
 Binary Search 
+
 --#-----#-----#---
+
 6. BackTracking Pattern: Choose --> Explore --> Unchoose
 
 Template:
@@ -179,6 +183,7 @@ void permute(int i){
 Use Cases:
 String Permutation,
 Array permutation
+
 --#-----#-----#---
 
 
@@ -193,7 +198,8 @@ void dfs(Node node){
 
 USe cases:
 Tree and Graph Traversal,
-Connected Component 
+Connected Component
+
 --#-----#-----#---
 
 
