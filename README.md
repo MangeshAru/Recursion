@@ -31,18 +31,18 @@ Where Recursion is used
 6. Linked List Operation
 
 Cons:
-Extra stack memory usage
-Risk of stackOverflowError
+1. Extra stack memory usage
+2. Risk of stackOverflowError
 
 
 When to use Recursion:
-1.problem can be broken into multiple identical subproblems
-2.Depth is manageble
-3.Trees/Graph involved
+1. problem can be broken into multiple identical subproblems
+2. Depth is manageble
+3. Trees/Graph involved
 
 
 Patterns:
-1.Linear Recursion
+1. Linear Recursion
 Functions makes one recursive call.
 
 Template:
