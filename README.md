@@ -248,7 +248,19 @@ Do not overthink!
 
 
 
+Key areas to focus in Recursion
+1. Visualization of Function calls and call stack with Recursion tree
+2. Variables (Which variable type to use in which place and what to return)
+     Argument variables -> Will go into the next function call
+     Return type
+     Variables present in function body -> Are specific to that function call
 
+
+About the recursion tree
+1. See the flow of functions and see how they are getting into stack
+2. Identify and focus on left tree calls and right tree calls
+3. Draw the tree and pointers again and again using pen and paper
+4. Use the debugger to see the flow of the program
 
 
 
