@@ -227,7 +227,24 @@ How to Practice :
  5.  Analyze time ans space
 
   
-
+The problem-solving mindset to solve recursion problems comes with Practice!
+1. This is the most important concept from all of the Data Structures and Algorithms concepts
+2. Recursion provides the base knowledge for more than 90% of the topics involving problem-solving
+3. Clear understanding of Recursion is important to solve problems like:
+      Binary Trees
+      Linked lists
+      Binary Search Trees
+      Dynamic Programming
+      Heaps
+      Graphs
+      Traversals
+      Prerequisites for Recursion:
+      Functions
+      Memory Management
+4. You will face difficulties while learning Recursion, so don't skip it! don't give up!
+Because once you understand recursion its very easy to proceed with problem solving
+Don't break your learning streak!
+Do not overthink!
 
 
 
